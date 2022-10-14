@@ -4,7 +4,6 @@ on:
   push:		
     branches: [ "main" ]
 
-# 본인이 설정한 값으로 입력해야 함
 env:
   AWS_REGION: ap-northeast-2
   S3_BUCKET_NAME: yewon-cicd-bucket
